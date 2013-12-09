@@ -6,7 +6,7 @@
     "angular": "~1.2.3"
   },
   "devDependencies": {
-    ""angular": "~1.2.3"
+    "angular": "~1.2.3"
   }
   "_release": "0.0.1",
   "_source": "git://github.com/XivicSilver/xivic-angular-eat-event.git",
