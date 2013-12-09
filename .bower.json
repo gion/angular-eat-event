@@ -1,0 +1,15 @@
+{
+  "name": "xv-angular-eat-event",
+  "version": "0.0.1",
+  "homepage": "https://github.com/XivicSilver/xv-angular-eat-event",
+  "dependencies": {
+    "angular": "~1.2.3"
+  },
+  "devDependencies": {
+    ""angular": "~1.2.3"
+  }
+  "_release": "0.0.1",
+  "_source": "git://github.com/XivicSilver/xivic-angular-eat-event.git",
+  "_target": "~0.0.1",
+  "_originalSource": "xv-angular-eat-event"
+}
