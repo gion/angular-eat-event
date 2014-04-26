@@ -3,15 +3,30 @@ xv-angular-eat-event
 
 An angularjs directive that hijacks events on the targeted dom element and prevents the default action (`preventDefault()`)  
 
-usage:  
+##usage:  
+  
+ * download the script: 
+   * [download](https://github.com/XivicSilver/xv-angular-eat-event/releases/tag/0.0.3)
+   * [clone](https://github.com/XivicSilver/xv-angular-eat-event.git) 
+   * or use [bower](http://bower.io) (`bower install --save xv-angular-eat-event`) 
+ * include the script into your app:  
+
+```html
+<script src="path/to/file/xv-angular-eat-event.js"></script>
+```
+ * add the `eatEvent` module as a dependency to your angular app  
+ 
+```javascript
+angular.module('myFancyApp', ['eatEvent']);
+```
+ * use the directive in your views:  
+ * 
 ```html
 // don't leave the page on anchor click:   
 <a href="some-link" eat-event="click">never leave me!!!</a>
 ```
-
 or 
 
-  
 ```html
 // prevent multiple events:   
 <label>You shall not type!</label>
