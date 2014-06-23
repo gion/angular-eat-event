@@ -1,7 +1,7 @@
 xv-angular-eat-event
 ====================
 
-An angularjs directive that hijacks events on the targeted dom element and prevents the default action (`preventDefault()`)  
+An angularjs directive that hijacks events on the targeted dom element, prevents the default action (`preventDefault()`) and stops the propagation (`stopPropagation()`).  
 
 ##usage:  
   
