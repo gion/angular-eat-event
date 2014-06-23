@@ -9,7 +9,7 @@
         "angular": "~1.2.3"
     },
     "resolutions": {},
-    "_release": "0.0.3",
+    "_release": "0.0.4",
     "_source": "git://github.com/XivicSilver/xivic-angular-eat-event.git",
     "_target": "~0.0.4",
     "_originalSource": "xv-angular-eat-event"
