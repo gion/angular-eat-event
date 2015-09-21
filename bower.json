@@ -8,6 +8,7 @@
   "devDependencies": {
     "angular": "~1.2.3"
   },
+  main: "angular-eat-event.js",
   "resolutions": {},
   "_release": "0.1.0",
   "_source": "git://github.com/gion/angular-eat-event.git",
