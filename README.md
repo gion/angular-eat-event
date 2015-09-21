@@ -1,4 +1,4 @@
-xv-angular-eat-event
+angular-eat-event
 ====================
 
 An angularjs directive that hijacks events on the targeted dom element, prevents the default action (`preventDefault()`) and stops the propagation (`stopPropagation()`).  
@@ -6,13 +6,13 @@ An angularjs directive that hijacks events on the targeted dom element, prevents
 ##usage:  
   
  * download the script: 
-   * [download](https://github.com/XivicSilver/xv-angular-eat-event/releases/tag/0.0.3)
-   * [clone](https://github.com/XivicSilver/xv-angular-eat-event.git) 
-   * or use [bower](http://bower.io) (`bower install --save xv-angular-eat-event`) 
+   * [download](https://github.com/gion/angular-eat-event/releases/tag/0.1.0)
+   * [clone](https://github.com/gion/angular-eat-event.git) 
+   * or use [bower](http://bower.io) (`bower install --save angular-eat-event`) 
  * include the script into your app:  
 
 ```html
-<script src="path/to/file/xv-angular-eat-event.js"></script>
+<script src="path/to/file/angular-eat-event.js"></script>
 ```
  * add the `eatEvent` module as a dependency to your angular app  
  
