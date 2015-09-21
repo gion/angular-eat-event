@@ -1,7 +1,7 @@
 {
-    "name": "xv-angular-eat-event",
-    "version": "0.0.4",
-    "homepage": "https://github.com/XivicSilver/xivic-angular-eat-event",
+    "name": "angular-eat-event",
+    "version": "0.1.0",
+    "homepage": "https://github.com/gion/angular-eat-event",
     "dependencies": {
         "angular": "~1.2.3"
     },
@@ -9,8 +9,8 @@
         "angular": "~1.2.3"
     },
     "resolutions": {},
-    "_release": "0.0.4",
-    "_source": "git://github.com/XivicSilver/xivic-angular-eat-event.git",
-    "_target": "~0.0.4",
+    "_release": "0.1.0",
+    "_source": "git://github.com/gion/angular-eat-event.git",
+    "_target": "~0.1.0",
     "_originalSource": "xv-angular-eat-event"
 }
