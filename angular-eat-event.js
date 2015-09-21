@@ -10,18 +10,18 @@ angular.module('eatEvent', [])
 
   .directive('eatEvent', function() {
 
-    return {
-      restrict: 'A',
-      link: function(scope, element, attrs) {
-        var defaultEvent = 'click';
+  return {
+    restrict: 'A',
+    link: function(scope, element, attrs) {
+      var defaultEvent = 'click';
 
         element.on(attrs.eatEvent || defaultEvent, function(event) {
-          event.stopPropagation();
-          event.cancelBubble = true;
-          event.preventDefault();
+        event.stopPropagation();
+        event.cancelBubble = true;
+        event.preventDefault();
 
-          return false;
-        });
-      }
+        return false;
+      });
     }
+  }
 });
